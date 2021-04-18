@@ -18,6 +18,7 @@
 - Peter Elsea's Max/Msp/Jitter Introduction – http://peterelsea.com/maxtutorials.html
 - Mark Phillips – MaxMSP-based Teaching and Learning Resources – http://www.ohio.edu/people/phillipm/public_html/MaxResources.html
 - Kadenze – Programming Max: Structuring Interactive Software for Digital Arts – https://www.kadenze.com/courses/programming-max-structuring-interactive-software-for-digital-arts/info
+- Federico Foderaro – Visuals - https://www.federicofoderaro.com/videoTutorials.html
 
 ## BOOKS
 - Electronic Music and Sound Design Vol 1 – https://www.contemponet.com/shop/electronic-music-and-sound-design-1-max-8/
