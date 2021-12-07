@@ -1,0 +1,6 @@
+- Install dependencies with command
+npm install
+- start server
+node server.js
+- open Browser
+http://localhost:3000
