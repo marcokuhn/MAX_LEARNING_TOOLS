@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Getting Started with p5.touchgui</title>
+    <!-- p5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <!-- p5.touchgui -->
+    <script src="https://unpkg.com/p5.touchgui@0.5.2/lib/p5.touchgui.js"></script>
+    <!-- websocket connection -->
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <script>
+        // Your code will go here
+        let gui;
+        let button;
+        let slider1;
+        let slider2d;
+
+        var socket;
+        var websocket_msg = {
+            name: '',
+            value: null
+        }
+
+        function setup() {
+            createCanvas(800, 1000);
+
+            gui = createGui();
+            //// PRESETS
+            // You can load one of the preset styles for p5.touchGui.
+            // Current options are:
+            //  "Gray"
+            //  "Blue"
+            //  "TerminalGreen"
+            gui.loadStyle("TerminalGreen");
+
+            button = createButton("Button", 10, 10, 500, 100);
+            // Create Slider.
+            // The last two optional arguments define the min and max (minimum and maximum) values.
+            // The default min and max values are 0 and 1, respectively.
+            slider1 = createSlider("Slider", 10, 120, 500, 100, 0, 1);
+            // Create Slider2d.
+            // The last four optional arguments define minimum and maximum values 
+            // for the x and y axes; minX, maxX, minY, maxY
+            // The default min and max values for all four are -1 and 1.
+            slider2d = createSlider2d("Slider2d", 10, 240, 500, 500, 0, 1, 1, 0);
+            slider2 = createSlider("Slider2", 10, 750, 500, 100, 0, 1);
+
+            //Create a socket connection from the client to the server 
+            socket = io.connect('http://localhost:3000');
+        }
+
+        function draw() {
+            background(200);
+            drawGui();
+
+            if (button.isPressed) {
+                print(button.label + " is pressed.");
+                websocket_msg.name = 'button';
+                websocket_msg.value = 1;
+                sendWebSocketMSG(websocket_msg);
+            }
+
+            if (slider1.isChanged) {
+                // Print a message when Slider is changed
+                // that displays its value.
+                print(slider1.label + " = " + slider1.val);
+                websocket_msg.name = 'slider1';
+                websocket_msg.value = slider1.val;
+                sendWebSocketMSG(websocket_msg);
+            }
+
+            if (slider2d.isChanged) {
+                // Print a message when Slider2d is changed
+                // that displays its value.
+                print(slider2d.label + " = {" + slider2d.valX + ", " + slider2d.valY + "}");
+                websocket_msg.name = 'slider2d';
+                websocket_msg.value = {
+                    x: slider2d.valX,
+                    y: slider2d.valY
+                };
+                sendWebSocketMSG(websocket_msg);
+            }
+        }
+
+        function sendWebSocketMSG(data) {
+            socket.emit('msg', data);
+        }
+
+        /// Add these lines below sketch to prevent scrolling on mobile
+        function touchMoved() {
+            // do some stuff
+            return false;
+        }
+
+    </script>
+</body>
+
+</html>
