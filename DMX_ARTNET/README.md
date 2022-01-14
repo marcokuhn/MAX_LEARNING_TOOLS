@@ -22,18 +22,18 @@
 
 ## Interfaces
 ### DMX - Interface
-    - BSP: DMX USB PRO Mk2 -> https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-pro-interface/
-    - DIY INTERFACE 
-        - DMX Libraries 
-            - DMXSimple (Teensy) -> https://www.pjrc.com/teensy/td_libs_DmxSimple.html
-            - TeensyDMX (Teensy) -> https://github.com/ssilverman/TeensyDMX
-        - Artnet
-            - Art-Net library for Teensy and Arduino -> https://github.com/natcl/Artnet
+- BSP: DMX USB PRO Mk2 -> https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-pro-interface/
+- DIY INTERFACE 
+    - DMX Libraries 
+    - DMXSimple (Teensy) -> https://www.pjrc.com/teensy/td_libs_DmxSimple.html
+    - TeensyDMX (Teensy) -> https://github.com/ssilverman/TeensyDMX
+    - Artnet
+    - Art-Net library for Teensy and Arduino -> https://github.com/natcl/Artnet
 
-    - Project EXAMPLES: 
-        - DMX - https://github.com/natcl/dmx_midi
-        - Artnet – https://www.instructables.com/howto/dmx/
-        - Artnet – https://www.instructables.com/howto/artnet/
+- Project EXAMPLES: 
+    - DMX - https://github.com/natcl/dmx_midi
+    - Artnet – https://www.instructables.com/howto/dmx/
+    - Artnet – https://www.instructables.com/howto/artnet/
 
 ### Control 230 V Devices (LAMPS, FANS, MOTORS)
 - With a DMX Switch you can switch on and off an 230V Consumer.
