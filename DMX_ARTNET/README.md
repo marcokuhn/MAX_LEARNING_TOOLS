@@ -1,5 +1,7 @@
 # CONTROLLING LIGHTS / MOTORS / 230V CONSUMERS
 
+DEMO: https://vimeo.com/171001689
+
 ## Max/MSP RECOMMENDATION
 - Connection to an USB-Interface
     - MAX/MSP > IMP.DMX > OLA > INTERFACE
@@ -9,7 +11,10 @@
 
 ## Resources:
 - Max Externals 
-    - IMP.DMX -> https://www.theimpersonalstereo.com/impdmx
+    - IMP.DMX 
+    - https://www.theimpersonalstereo.com/impdmx
+    - https://www.dropbox.com/s/b0xelhn22wm8bht/imp_artnet_v1_1.zip
+
 - OLA - OpenLightning Architecture
     - https://www.openlighting.org/ola/
     - Installation -> https://formulae.brew.sh/formula/ola
@@ -22,18 +27,18 @@
 
 ## Interfaces
 ### DMX - Interface
-    - BSP: DMX USB PRO Mk2 -> https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-pro-interface/
-    - DIY INTERFACE 
-        - DMX Libraries 
-            - DMXSimple (Teensy) -> https://www.pjrc.com/teensy/td_libs_DmxSimple.html
-            - TeensyDMX (Teensy) -> https://github.com/ssilverman/TeensyDMX
-        - Artnet
-            - Art-Net library for Teensy and Arduino -> https://github.com/natcl/Artnet
+- BSP: DMX USB PRO Mk2 -> https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-pro-interface/
+- DIY INTERFACE 
+    - DMX Libraries 
+    - DMXSimple (Teensy) -> https://www.pjrc.com/teensy/td_libs_DmxSimple.html
+    - TeensyDMX (Teensy) -> https://github.com/ssilverman/TeensyDMX
+    - Artnet
+    - Art-Net library for Teensy and Arduino -> https://github.com/natcl/Artnet
 
-    - Project EXAMPLES: 
-        - DMX - https://github.com/natcl/dmx_midi
-        - Artnet – https://www.instructables.com/howto/dmx/
-        - Artnet – https://www.instructables.com/howto/artnet/
+- Project EXAMPLES: 
+    - DMX - https://github.com/natcl/dmx_midi
+    - Artnet – https://www.instructables.com/howto/dmx/
+    - Artnet – https://www.instructables.com/howto/artnet/
 
 ### Control 230 V Devices (LAMPS, FANS, MOTORS)
 - With a DMX Switch you can switch on and off an 230V Consumer.
