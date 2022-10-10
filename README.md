@@ -5,9 +5,10 @@
 - Max for Live – https://www.ableton.com/de/live/max-for-live/
 - Max for Live - User Library – https://maxforlive.com
 - Official Max 8 Documentation – https://docs.cycling74.com/max8/
-- MSP Object Overview – https://docs.cycling74.com/max8/vignettes/msp_functional
 - Cycling 74 -> Forum - https://cycling74.com/forums/
 - Live Object Model (LOM) – https://docs.cycling74.com/max8/vignettes/live_object_model
+- MSP Object Overview – https://docs.cycling74.com/max8/vignettes/msp_functional
+- A Functional Listing of all Max Objects – https://docs.cycling74.com/max8/vignettes/max_functional
 
 ## Tutorials
 - Delicious Max Tutorials – https://www.youtube.com/playlist?list=PLD45EDA6F67827497
