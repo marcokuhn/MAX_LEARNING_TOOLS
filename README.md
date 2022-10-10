@@ -16,7 +16,7 @@
 - Baz Tutorials – https://www.youtube.com/user/BazTutorials/videos
 - dearjohnread – https://www.youtube.com/user/dearjohnreed/playlists
 - Peter Elsea's Max/Msp/Jitter Introduction – http://peterelsea.com/maxtutorials.html
-- Mark Phillips – MaxMSP-based Teaching and Learning Resources – http://www.ohio.edu/people/phillipm/public_html/MaxResources.html
+- Mark Phillips – MaxMSP-based Teaching and Learning Resources – https://people.ohio.edu/phillipm/MaxResources.html
 - Kadenze – Programming Max: Structuring Interactive Software for Digital Arts – https://www.kadenze.com/courses/programming-max-structuring-interactive-software-for-digital-arts/info
 - Federico Foderaro – Visuals - https://www.federicofoderaro.com/videoTutorials.html
 
