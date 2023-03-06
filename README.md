@@ -10,6 +10,10 @@
 - A Functional Listing of all Max Objects – https://docs.cycling74.com/max8/vignettes/max_functional
 - Live Object Model (LOM) – https://docs.cycling74.com/max8/vignettes/live_object_model
 
+## MAX 4 LIVE BEGINNER
+- FAQ +Troubleshooting — Max for Live from Tilman Ehrhorn – https://www.youtube.com/watch?v=ZIP7IwaQHY8
+- cheatsheet from benniy c bascom - https://www.dropbox.com/s/a92ejdnhh1pufui/max%20cheatsheet%20v2.pdf?dl=0
+
 ## Tutorials
 - Delicious Max Tutorials – https://www.youtube.com/playlist?list=PLD45EDA6F67827497
 - Christopher Dobrian – https://music.arts.uci.edu/dobrian/maxcookbook/ 
