@@ -28,6 +28,7 @@
 ## BOOKS
 - Electronic Music and Sound Design Vol 1 – https://www.contemponet.com/shop/electronic-music-and-sound-design-1-max-8/
 - Electronic Music and Sound Design Vol 2 – https://www.contemponet.com/shop/electronic-music-and-sound-design-2-max-8/
+- Electronic Music and Sound Design Vol 2 – https://www.contemponet.com/shop/electronic-music-and-sound-design-3-max-8/
 - Ableton Live Object Model – Max for Ultimate Zen Guide – https://leanpub.com/Max-for-Live-Ultimate-Zen-Guide/
 - The Computer Music Tutorial By Curtis Roads 
 - Elektronische Klänge und musikalische Entdeckungen, André Ruschkowski 
