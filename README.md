@@ -23,7 +23,13 @@
 - Peter Elsea's Max/Msp/Jitter Introduction – http://peterelsea.com/maxtutorials.html
 - Mark Phillips – MaxMSP-based Teaching and Learning Resources – https://people.ohio.edu/phillipm/MaxResources.html
 - Kadenze – Programming Max: Structuring Interactive Software for Digital Arts – https://www.kadenze.com/courses/programming-max-structuring-interactive-software-for-digital-arts/info
+- Fundamentals of Sequencing – Philip Meyer – https://www.youtube.com/watch?v=lC9RJW57Dnk&list=PLyrJzbPfiEyCtAEyxEStFum7BKPaL-c-4
 - Federico Foderaro – Visuals - https://www.federicofoderaro.com/videoTutorials.html
+
+## Tools
+- Max ToolBox : Patch faster in Max/MSP – https://github.com/natcl/maxtoolbox?fbclid=IwAR2vE5dK6PpgxGOZ8dyte1hFbM8LHEShkXBupvkBu6bBhIXPebUVFaji2os
+- 
+
 
 ## BOOKS
 - Electronic Music and Sound Design Vol 1 – https://www.contemponet.com/shop/electronic-music-and-sound-design-1-max-8/
